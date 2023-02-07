@@ -27,8 +27,10 @@ public class AutoAppConfig {
     // 자동 등록 빈보다 수동 등록 빈이 우선권을 가진다. 수동 빈이 자동 빈을 오버라이딩 한다.
     // 수동 빈 등록, 자동 빈 등록 오류 시 스프링 부트 에러 (CoreApplication 실행 시 오류 확인 가능)
     // Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+/*
     @Bean(name = "memoryMemberRepository")
     MemberRepository memberRepository() {
         return new MemoryMemberRepository();
     }
+    */
 }
